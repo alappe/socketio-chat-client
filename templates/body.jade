@@ -1,0 +1,13 @@
+body.chat
+  div.contain-to-grid.sticky
+    nav.top-bar(data-topbar role="navigation")
+      ul.title-area
+        li.name
+          h1
+            a#welcome Chat
+  div#alerts
+  main(data-hook="page-container")
+    div.row
+      div.large-12.columns#messages
+    form.message-input
+      input(type="text", value="", placeholder="your message…")
